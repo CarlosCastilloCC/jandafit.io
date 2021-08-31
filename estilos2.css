@@ -1,0 +1,153 @@
+@font-face {
+   font-family: titulo;
+  src: url("futura_md_bt_bold.ttf");
+}
+.text-titulo{
+  font-family: titulo, sans-serif;
+}
+@font-face{
+  font-family: texto;
+  src: url("FuturaBookBT.ttf");
+}
+.text-texto{
+  font-family: texto, sans-serif;
+}
+
+/*Menu*/
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    width: 100px;
+}
+.navbar{
+  padding: 0;
+  
+}
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#menu a:hover{
+  color: black!important;
+  background-color: #007bff;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  color: #fff;
+  background-color: cornflowerblue;
+}
+
+
+/*Videos*/
+.card{
+    margin-right: 15px
+    margin-bottom: 25px;
+}
+#card-1{
+  background-image: url(imgInicio/botonPlay.png);
+}
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    position: center;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/*modal videos*/
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: aliceblue;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}
+
+/*FOOTER*/
+.bg-azul{
+  background-color: #b0d0d8;
+}
+
+.text-tamaño{
+  font-size: 1.5rem;
+}
+.caja{
+  width: 100%;
+  height: 100%;
+}
+}
+.text-center {
+   text-align: center!important; 
+}
+
+li{
+  margin-top: 2mm;
+  margin-left: 13mm;
+}
+a.correo:hover{
+  color: blue;
+  background-color: transparent;
+}
+
+a{
+  color: black;
+}
+a.instagram:hover{
+  color: white!important;
+}
+a.facebook:hover{
+  color: blue;
+}
+
+
+ul.iconos{
+  justify-content: center;
+  text-align: center;
+  height: 40%;
+  padding-top: 45px;
+}
+
+.footer{
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
