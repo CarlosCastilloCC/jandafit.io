@@ -42,7 +42,7 @@ else if (isset($_POST['email']) && !empty($_POST['email']))
     <div class="container">
       <div class="row">
         <div class="col-md 12 col-sm-12 col-lg-6 ">
-          <img src="salud.png" class="salud" class="img-fluid" style="" alt="">
+          <img src="salud.png" class="salud d-block mx-auto my-auto" class="img-fluid" style="" alt="">
         </div>
         <div class="col-md 12 col-sm-12 col-lg-6">
           <h2 class="mt-4 ml-3 mb-3 text-center text-titulo">Beneficios</h2>

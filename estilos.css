@@ -16,6 +16,14 @@
   padding: 0;
   
 }
+.bg-bn1{
+  background-image: url(inicio.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+
+  
+}
 
 #menu a:hover{
   color: black!important;
@@ -106,12 +114,12 @@ button.close2 {
   padding: 0rem 0rem 0rem 0rem;
 } */
 img.salud{
-    width: 70%;
+    width: 40%;
     justify-content: center;
     margin-top: 25mm;
     margin-left: 1cm;
 }
-}
+
 .text-center {
    text-align: center!important; 
 }
@@ -164,9 +172,10 @@ ul.iconos{
 
 .bg-fondo{
   background-image: url(Testimonios2.jpg);
-   background-color: #2E8A53; 
+   
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center top;
   
   height: 550px;
   
@@ -176,9 +185,10 @@ ul.iconos{
 .imagen{
  width: 1362px;
 }
-.video{
+/*.video{
   padding-left: 68px;
-}
+  border-color: black;
+}*/
 
 .text-tamaño{
   font-size: 1.5rem;
@@ -207,16 +217,16 @@ p.error {
 @media only screen and (max-width: 600px) {
 
   img.salud {
-    width: 80%;
+    width: 40%;
     justify-content: center;
     margin-top: 29mm;
     margin-left: 1cm;
 }
   .bg-fondo{
   background-image: url(Testimonios2.jpg);
-   background-color: #2E8A53; 
+   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center top;
   
   height: 550px;
   
@@ -228,7 +238,7 @@ p.error {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   img.salud {
-    width: 80%;
+    width: 70%;
     justify-content: center;
     margin-top: 29mm;
     margin-left: 1cm;
@@ -247,13 +257,15 @@ p.error {
     width: 100px;
     bottom: 15px;
 }
+img.salud {
+  width: 40%;
+  justify-content: center;
+  margin-top: 29mm;
+  margin-left: 1cm;
+}
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
 
 
 

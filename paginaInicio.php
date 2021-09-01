@@ -49,7 +49,7 @@
         
             <?php if(isset($_SESSION['user'])){ ?>
                     <li class="nav-item text-titulo">
-                        <a class="nav-link" href="logout.php"><?php $_SESSION['user']['email'] ?>cerrar sesion</a>
+                        <a class="nav-link" href="logout.php"><?php $_SESSION['user']['email'] ?>Cerrar Sesión</a>
                     </li>
                     <?php }?>      
         
@@ -88,7 +88,7 @@
    
    <section id="videos">
        <div class="container">
-        <h2 class="text-titulo" style="text-align: center; margin-top: 25px;color: #007bff;">Cuida tu Cuerpo</h2>
+        <h2 class="text-titulo" style="text-align: center; margin-top: 25px;/*color: #007bff;*/font-size: 3.5rem;">Cuida tu Cuerpo</h2>
            <div class="row" style="justify-content: center;">
                <div class="card"  style="width: 18rem;margin-right: 15px; margin-bottom: 25px; margin-top: 25px;" >
   <img src="imgInicio/Calentamiento.jpg" id="card-1" class="card-img-top" alt="...">
@@ -107,7 +107,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Calentamiento</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -139,18 +139,18 @@
     <h5 class="card-title" style="text-align:center;">Cardio</h5>
     <p class="card-text">Descubre la importancia del cadio y aprende como fortalecer tu cuerpo y mejorar la salud de tus pulmones y corazón.</p>
     <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="display: block;
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal" style="display: block;
     margin-left: auto;
     margin-right: auto;">
   Abrir Video
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Cardio</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -175,24 +175,23 @@
   </div>
 </div>
 <!-- tercer video -->
-     <div class="card" style="width: 18rem; margin-right: 15px; margin-bottom: 25px;margin-top: 25px; " >
+
+<div class="card" style="width: 18rem; margin-right: 15px; margin-bottom: 25px;margin-top: 25px; ">
   <img src="imgInicio/Brazos.jpg" class="card-img-top" alt="...">
+
   <div class="card-body">
-    <h5 class="card-title" style="text-align:center;">Brazos y Piernas</h5>
+     <h5 class="card-title" style="text-align:center;">Brazos y Piernas</h5>
     <p class="card-text">Tonifica tus piernas y aumenta la fuerza en tus brazos con estos ejercicios.</p>
-    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="display: block;
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal1" style="display: block;
     margin-left: auto;
     margin-right: auto;">
   Abrir Video
 </button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Brazos y Piernas</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -200,48 +199,45 @@
       <div class="modal-body">
         <div class="embed-responsive embed-responsive-16by9">
             <video width="600" height="300" controls>
-              <source src="ejercicio.mp4" type="video/mp4">
+              <source src="imgInicio/Brazo.mp4" type="video/mp4">
             </video>
           </div>
       </div>
-      <!-- <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div> -->
     </div>
   </div>
 </div>
-
-
-
   </div>
 </div>
 
+
+
+
+
 <!-- cuarto video -->
      <div class="card" style="width: 18rem;  margin-bottom: 25px; margin-top: 25px; " >
-  <img src="..." class="card-img-top" alt="...">
+  <img src="imgInicio/pronto.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title" style="text-align:center;">Gluteos</h5>
     <p class="card-text">Trabaja de manera intensa para fortalecer tus gluteos por medio de repeticiones que te ayudaran en tu objetivo.</p>
     <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="display: block;
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal2" style="display: block;
     margin-left: auto;
     margin-right: auto;">
   Abrir Video
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Gluteos</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <div class="embed-responsive embed-responsive-16by9">
+        <div class="video embed-responsive embed-responsive-16by9">
             <video width="600" height="300" controls>
               <source src="ejercicio.mp4" type="video/mp4">
             </video>

@@ -12,7 +12,7 @@
   <div class="collapse navbar-collapse text-titulo" id="navbarNav" >
     <ul class="navbar-nav ml-auto" id="menu">
       <li class="nav-item active">
-        <a class="nav-link" href="#acerca" style="color: black;">Acerca de nosotros</a>
+        <a class="nav-link" href="#acerca" style="color: black;">Inicio</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#beneficios" style="color: black;">Beneficios</a>

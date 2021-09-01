@@ -1,7 +1,7 @@
-<div class="container">
-      <div class="row">
-        <div class="col">
-          <img src="inicio.jpeg" class="img-fluid imagen">
+<div class="container bg-bn1">
+      <div class="row " >
+        <div class="col " style="height:550px;">
+         
           <!-- Button trigger modal -->
 
 
